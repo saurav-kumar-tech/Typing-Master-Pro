@@ -17,14 +17,14 @@ used for profile and progress persistence.
 
 ### 1. Welcome & Profile Selection
 
-![Keystride Welcome Screen](screenshots/01-welcome.png)
+![Keystride Welcome Screen](screenshots/welcome.png)
 
 Users can create/select a local profile and continue their typing
 journey with saved progress.
 
 ### 2. Study / Course Dashboard
 
-![Keystride Study Course](screenshots/02-study-course.png)
+![Keystride Study Course](screenshots/study-course.png)
 
 The Study section provides a structured typing course with lesson
 navigation, progress tracking, daily practice goals, and course-duration
@@ -32,7 +32,7 @@ controls.
 
 ### 3. Guided Drill Practice
 
-![Keystride Drill Practice](screenshots/03-drill-practice.png)
+![Keystride Drill Practice](screenshots/drill-practice.png)
 
 The drill interface provides highlighted keys, on-screen keyboard
 guidance, hand/finger hints, live WPM, accuracy, correct/error counts,
@@ -40,49 +40,49 @@ restart, finish/save, and course navigation.
 
 ### 4. Timed Typing Test
 
-![Keystride Typing Test](screenshots/04-typing-test.png)
+![Keystride Typing Test](screenshots/typing-test.png)
 
 Users can choose a test duration and measure typing speed and accuracy
 with live statistics.
 
 ### 5. Typing Games
 
-![Keystride Games](screenshots/05-games-menu.png)
+![Keystride Games](screenshots/games-menu.png)
 
 Keystride includes multiple mini-games for practicing typing in a more
 interactive way.
 
 ### 6. Space Shooter Game
 
-![Keystride Space Shooter](screenshots/06-space-shooter.png)
+![Keystride Space Shooter](screenshots/space-shooter.png)
 
 The Space Shooter game combines keyboard input with arcade-style
 gameplay, score tracking, lives, and a countdown timer.
 
 ### 7. Statistics & Progress
 
-![Keystride Statistics](screenshots/07-statistics.png)
+![Keystride Statistics](screenshots/statistics.png)
 
 The Statistics section tracks typing performance with best/average WPM,
 accuracy, gross speed, net speed, history, and progress information.
 
 ### 8. Settings
 
-![Keystride Settings](screenshots/08-settings.png)
+![Keystride Settings](screenshots/settings.png)
 
 Users can customize sound, theme, daily practice goal, keypress sound
 style, color theme, text size, and other practice preferences.
 
 ### 9. About Keystride
 
-![Keystride About](screenshots/09-about.png)
+![Keystride About](screenshots/about.png)
 
 The About page introduces Keystride and summarizes its core learning
 features.
 
 ### 10. Certificate of Completion
 
-![Keystride Certificate](screenshots/10-certificate.png)
+![Keystride Certificate](screenshots/certificate.png)
 
 After completing **all 12 lessons**, Keystride unlocks a personalized
 **Certificate of Completion** containing the learner's name, completion
