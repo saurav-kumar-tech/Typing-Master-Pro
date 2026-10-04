@@ -12,6 +12,14 @@
 
 </p>
 
+## 🌐 Live Demo
+
+<p align="center">
+  <a href="https://saurav-kumar-tech.github.io/Typing-Master-Pro/" target="_blank">
+    <strong>🚀 Launch Keystride — Typing Master</strong>
+  </a>
+</p>
+
 <p align="center">
 
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
@@ -36,16 +44,6 @@
 
   <a href="#-future-improvements">Future Improvements</a>
 
-</p>
-
----
-
-🌐 Live Demo
-
-<p align="center">
-  <a href="https://saurav-kumar-tech.github.io/Typing-Master-Pro/" target="_blank">
-    <strong>🚀 Launch Keystride — Typing Master</strong>
-  </a>
 </p>
 
 ---
