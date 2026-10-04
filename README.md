@@ -1,461 +1,514 @@
-# ⚡ Keystride --- Typing Practice & Skill-Building App
+# ⌨️ Keystride — Typing Master
 
-> **Master the rhythm of typing.**
+<p align="center">
+  <strong>Build Speed • Improve Accuracy • Master the Keyboard</strong>
+</p>
 
-Keystride is a browser-based typing practice application designed to
-help users build touch-typing skills through structured lessons, guided
-drills, timed typing tests, mini-games, progress tracking, achievements,
-and a personalized completion certificate.
+<p align="center">
+  A modern and interactive typing practice web application designed to help users improve their typing speed, accuracy, consistency, and keyboard skills.
+</p>
 
-The supplied project is implemented as a **single `index.html` file**
-using HTML, CSS, and vanilla JavaScript, with browser `localStorage`
-used for profile and progress persistence.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/LocalStorage-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white">
+</p>
 
-------------------------------------------------------------------------
+<p align="center">
+  <a href="#-features">Features</a> •
+  <a href="#-screenshots">Screenshots</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-installation">Installation</a> •
+  <a href="#-future-improvements">Future Improvements</a>
+</p>
 
-## 📸 Screenshots
+---
 
-### 1. Welcome & Profile Selection
+## 📌 About The Project
 
-![Keystride Welcome Screen](screenshots/welcome.png)
+**Keystride — Typing Master** is a frontend-based typing practice platform created to make typing improvement more structured, measurable, and engaging.
 
-Users can create/select a local profile and continue their typing
-journey with saved progress.
+The application provides users with a complete typing-learning experience that includes **guided lessons, typing drills, timed tests, games, performance statistics, settings, and certificate generation**.
 
-### 2. Study / Course Dashboard
+Instead of relying on repetitive typing exercises, Keystride combines practice with interactive challenges and progress tracking to encourage consistent improvement.
 
-![Keystride Study Course](screenshots/study-course.png)
+### 🎯 Project Goal
 
-The Study section provides a structured typing course with lesson
-navigation, progress tracking, daily practice goals, and course-duration
-controls.
+> **Practice consistently. Type accurately. Get faster.**
 
-### 3. Guided Drill Practice
+The primary objective is to help users develop:
 
-![Keystride Drill Practice](screenshots/drill-practice.png)
+* ⌨️ Better keyboard familiarity
+* ⚡ Higher typing speed
+* 🎯 Improved accuracy
+* 🧠 Stronger muscle memory
+* 📈 Consistent typing performance
 
-The drill interface provides highlighted keys, on-screen keyboard
-guidance, hand/finger hints, live WPM, accuracy, correct/error counts,
-restart, finish/save, and course navigation.
+---
 
-### 4. Timed Typing Test
+# ✨ Features
 
-![Keystride Typing Test](screenshots/typing-test.png)
+<table>
+<tr>
+<td width="50%">
 
-Users can choose a test duration and measure typing speed and accuracy
-with live statistics.
+### 👤 User Profile
 
-### 5. Typing Games
+* Personalized profile
+* User progress
+* Individual learning experience
+* Profile-based interaction
 
-![Keystride Games](screenshots/games-menu.png)
+</td>
+<td width="50%">
 
-Keystride includes multiple mini-games for practicing typing in a more
-interactive way.
+### 📚 Typing Course
 
-### 6. Space Shooter Game
+* Structured lessons
+* Progressive learning
+* Guided exercises
+* Keyboard skill development
 
-![Keystride Space Shooter](screenshots/space-shooter.png)
+</td>
+</tr>
 
-The Space Shooter game combines keyboard input with arcade-style
-gameplay, score tracking, lives, and a countdown timer.
+<tr>
+<td>
 
-### 7. Statistics & Progress
+### 🎯 Guided Drills
 
-![Keystride Statistics](screenshots/statistics.png)
+* Focused typing exercises
+* Real-time practice
+* Accuracy-oriented training
+* Muscle memory development
 
-The Statistics section tracks typing performance with best/average WPM,
-accuracy, gross speed, net speed, history, and progress information.
-
-### 8. Settings
-
-![Keystride Settings](screenshots/settings.png)
-
-Users can customize sound, theme, daily practice goal, keypress sound
-style, color theme, text size, and other practice preferences.
-
-### 9. About Keystride
-
-![Keystride About](screenshots/about.png)
-
-The About page introduces Keystride and summarizes its core learning
-features.
-
-### 10. Certificate of Completion
-
-![Keystride Certificate](screenshots/certificate.png)
-
-After completing **all 12 lessons**, Keystride unlocks a personalized
-**Certificate of Completion** containing the learner's name, completion
-date, best WPM, best accuracy, and skill level. The certificate can be
-**printed or saved as a PDF**.
-
-------------------------------------------------------------------------
-
-## ✨ Features
-
-### 🎓 Structured Typing Course
-
-Keystride provides a 12-lesson learning path:
-
-1.  Home Row
-2.  Upper Row
-3.  Lower Row
-4.  Right Hand Bottom
-5.  Full Alphabet
-6.  Common Words
-7.  Capital Letters
-8.  Numbers
-9.  Symbols
-10. Full Keyboard
-11. Advanced Words
-12. Speed Challenge
-
-The course is designed to progressively move from keyboard fundamentals
-toward speed and accuracy practice.
-
-### ⌨️ Guided Typing Drills
-
--   Real-time WPM
--   Accuracy tracking
--   Correct and error counts
--   Highlighted target keys
--   On-screen keyboard
--   Hand/finger guidance
--   Backspace correction
--   Restart option
--   Finish & Save
--   Return to course
+</td>
+<td>
 
 ### ⏱️ Typing Tests
 
-Available test durations include:
+* Timed typing challenges
+* WPM calculation
+* Accuracy calculation
+* Performance results
 
--   1 minute
--   2 minutes
--   5 minutes
--   Custom duration
+</td>
+</tr>
 
-Typing tests provide performance measurements such as WPM, accuracy,
-correct characters, and errors.
+<tr>
+<td>
 
 ### 🎮 Typing Games
 
-Keystride includes 8 typing mini-games:
+* Interactive game modes
+* Challenge-based practice
+* Space Shooter mode
+* Fast keyboard response training
 
--   🫧 Bubbles
--   🧱 WordTris
--   ☁️ Clouds
--   🏁 ABC Speed Race
--   🟩 Pipe Game
--   🏎️ Cloud Race
--   👻 Ghost Hunter
--   🚀 Space Shooter
+</td>
+<td>
 
-### 📊 Statistics & Progress Tracking
+### 📊 Statistics
 
-The application tracks:
+* Typing speed tracking
+* Accuracy tracking
+* Progress monitoring
+* Performance history
 
--   Best WPM
--   Average WPM
--   Best accuracy
--   Gross speed
--   Net speed
--   Accuracy history
--   Test history
--   Lesson history
--   Total practice time
--   Typed characters
--   Daily practice goal
--   Progress charts
--   Printable Progress Report
+</td>
+</tr>
 
-### 🏆 Gamification
+<tr>
+<td>
 
-Keystride includes:
+### ⚙️ Settings
 
--   XP
--   User levels
--   Practice streaks
--   Daily goals
--   Achievement badges
--   Personal-best feedback
--   Course completion progress
+* Application preferences
+* User customization
+* Learning experience controls
 
-### 🎓 Certificate of Completion
+</td>
+<td>
 
-A certificate is unlocked when the learner completes **all 12 course
-lessons**.
+### 🏆 Certificate
 
-The certificate includes:
+* Completion-based certificate
+* Achievement recognition
+* Learning milestone
 
--   Learner name
--   Completion date
--   Best WPM
--   Best accuracy
--   Skill level
--   Keystride branding/signature
--   Print / Save as PDF option
+</td>
+</tr>
+</table>
 
-### 👤 Local Profiles
+---
 
-Users can:
+# 🖥️ Screenshots
 
--   Create profiles
--   Select saved profiles
--   Delete profiles
--   Continue with previously stored progress
+> A visual overview of the Keystride Typing Master interface and major features.
 
-Profile and progress information is persisted locally in the browser.
+---
 
-### ⚙️ Customization
+## 01 · 👋 Welcome & Profile
 
-Settings include options for:
+<p align="center">
+  <img src="screenshots/01-welcome-profile.png" alt="Keystride Welcome and Profile" width="900">
+</p>
 
--   Sound on keypress
--   Dark/light mode
--   Daily practice goal
--   Keypress sound style
--   Accent/color theme
--   Text size
--   Resetting progress
+---
 
-### 📱 Responsive Interface
+## 02 · 📚 Course Dashboard
 
-The UI is designed to adapt across different screen sizes, with
-responsive layouts for the main learning and practice screens.
+<p align="center">
+  <img src="screenshots/02-course-dashboard.png" alt="Keystride Course Dashboard" width="900">
+</p>
 
-------------------------------------------------------------------------
+---
 
-## 🛠️ Tech Stack
+## 03 · 🎯 Guided Drill
 
-  Technology                 Purpose
-  -------------------------- -----------------------------------------
-  **HTML5**                  Application structure
-  **CSS3**                   Layout, styling, themes, responsive UI
-  **JavaScript (Vanilla)**   Application logic and interactions
-  **localStorage**           Local profile and progress persistence
-  **Google Fonts**           Certificate typography / visual styling
+<p align="center">
+  <img src="screenshots/03-guided-drill.png" alt="Keystride Guided Typing Drill" width="900">
+</p>
 
-No frontend framework is required for the supplied version.
+---
 
-------------------------------------------------------------------------
+## 04 · ⌨️ Typing Test
 
-## 🚀 How to Run
+<p align="center">
+  <img src="screenshots/04-typing-test.png" alt="Keystride Typing Test" width="900">
+</p>
 
-The supplied Keystride version is a client-side browser application, so
-no Node.js installation or backend server is required.
+---
 
-### Option 1 --- Open directly
+## 05 · 🎮 Games
 
-1.  Download or clone the project.
-2.  Open the project folder.
-3.  Double-click `index.html`.
-4.  Keystride will open in your browser.
+<p align="center">
+  <img src="screenshots/05-games.png" alt="Keystride Typing Games" width="900">
+</p>
 
-### Option 2 --- VS Code
+---
 
-1.  Open the project folder in VS Code.
-2.  Open `index.html`.
-3.  Run it in your browser.
-4.  Start by creating or selecting a profile.
+## 06 · 🚀 Space Shooter
 
-------------------------------------------------------------------------
+<p align="center">
+  <img src="screenshots/06-space-shooter.png" alt="Keystride Space Shooter Typing Game" width="900">
+</p>
 
-## 🧭 How to Use
+---
 
-### Step 1 --- Create or Select a Profile
+## 07 · 📊 Statistics
 
-Choose **New user** to create a profile, or select an existing saved
-profile.
+<p align="center">
+  <img src="screenshots/07-statistics.png" alt="Keystride Statistics Dashboard" width="900">
+</p>
 
-### Step 2 --- Start the Course
+---
 
-Open **Studying** and begin the structured typing lessons.
+## 08 · ⚙️ Settings
 
-### Step 3 --- Practice Drills
+<p align="center">
+  <img src="screenshots/08-settings.png" alt="Keystride Settings" width="900">
+</p>
 
-Complete guided drills while following the highlighted keyboard keys and
-finger guidance.
+---
 
-### Step 4 --- Take Typing Tests
+## 09 · ℹ️ About
 
-Use **Typing Test** to measure speed and accuracy under timed
-conditions.
+<p align="center">
+  <img src="screenshots/09-about.png" alt="Keystride About Section" width="900">
+</p>
 
-### Step 5 --- Play Typing Games
+---
 
-Use the games section to practice typing through interactive challenges.
+## 10 · 🏆 Certificate
 
-### Step 6 --- Track Your Progress
+<p align="center">
+  <img src="screenshots/10-certificate.png" alt="Keystride Certificate" width="900">
+</p>
 
-Open **Statistics** to review speed, accuracy, history, practice time,
-and other progress information.
+---
 
-### Step 7 --- Complete All 12 Lessons
+# 🛠️ Tech Stack
 
-Finish the complete course to unlock the certificate.
+| Technology          | Usage                                              |
+| ------------------- | -------------------------------------------------- |
+| 🧱 **HTML5**        | Application structure and semantic markup          |
+| 🎨 **CSS3**         | Styling, layouts, animations and responsive design |
+| ⚡ **JavaScript**    | Application logic and interactive functionality    |
+| 💾 **LocalStorage** | Client-side progress and user data persistence     |
+| 🔤 **Google Fonts** | Typography and visual presentation                 |
 
-### Step 8 --- Get Your Certificate
+---
 
-Open the certificate after course completion and use **Print / Save as
-PDF** to keep a copy.
+# 🧠 Core Concepts Implemented
 
-------------------------------------------------------------------------
+This project demonstrates practical frontend development concepts such as:
 
-## 🏗️ Project Structure
-
-``` text
-Keystride/
-│
-├── index.html
-├── README.md
-│
-└── screenshots/
-    ├── 01-welcome.png
-    ├── 02-study-course.png
-    ├── 03-drill-practice.png
-    ├── 04-typing-test.png
-    ├── 05-games-menu.png
-    ├── 06-space-shooter.png
-    ├── 07-statistics.png
-    ├── 08-settings.png
-    ├── 09-about.png
-    └── 10-certificate.png
+```text
+├── DOM Manipulation
+├── Event Handling
+├── Keyboard Event Detection
+├── Real-Time User Interaction
+├── Timer Implementation
+├── WPM Calculation
+├── Accuracy Calculation
+├── Progress Tracking
+├── LocalStorage
+├── Responsive Web Design
+├── Interactive UI Development
+├── Game Logic
+└── Client-Side Application Architecture
 ```
 
-> The screenshot files in this README package are the real screenshots
-> supplied for the project.
+---
 
-------------------------------------------------------------------------
+# 📂 Project Structure
 
-## 🧠 Application Architecture
+```text
+Typing-Master-Pro/
+│
+├── 📄 index.html
+├── 📄 README.md
+│
+└── 📁 screenshots/
+    │
+    ├── 🖼️ 01-welcome-profile.png
+    ├── 🖼️ 02-course-dashboard.png
+    ├── 🖼️ 03-guided-drill.png
+    ├── 🖼️ 04-typing-test.png
+    ├── 🖼️ 05-games.png
+    ├── 🖼️ 06-space-shooter.png
+    ├── 🖼️ 07-statistics.png
+    ├── 🖼️ 08-settings.png
+    ├── 🖼️ 09-about.png
+    └── 🖼️ 10-certificate.png
+```
 
-The supplied project keeps the main application in a single HTML
-document:
+---
 
--   **HTML** --- page structure and UI components
--   **CSS** --- themes, layout, cards, controls, game screens,
-    certificate styling, and responsive behavior
--   **JavaScript** --- navigation, lessons, drills, tests, games,
-    statistics, profiles, settings, XP, streaks, achievements, and
-    certificate logic
--   **localStorage** --- local persistence of user/profile and progress
-    data
+# 🚀 Installation & Setup
 
-This makes the supplied version easy to run and suitable for a
-lightweight browser-based project.
+## 1️⃣ Clone the Repository
 
-------------------------------------------------------------------------
+```bash
+git clone https://github.com/saurav-kumar-tech/Typing-Master-Pro.git
+```
 
-## 🔐 Data & Privacy
+## 2️⃣ Navigate to the Project
 
-Keystride's supplied implementation stores profile/progress information
-locally in the browser using `localStorage`.
+```bash
+cd Typing-Master-Pro
+```
 
-There is no required external application backend in the supplied
-version.
+## 3️⃣ Run the Application
 
-Because the data is stored locally, clearing browser storage can remove
-saved local profiles and progress.
+Open:
 
-------------------------------------------------------------------------
+```text
+index.html
+```
 
-## 🎯 Portfolio Highlights
+directly in your browser.
 
-Keystride demonstrates practical frontend development concepts
-including:
+### ⭐ Recommended
 
--   Interactive single-page application behavior
--   DOM manipulation
--   Event handling
--   Keyboard-event processing
--   Typing-speed calculations
--   Accuracy/error tracking
--   Timed activities
--   Game-state handling
--   Local data persistence
--   Progress dashboards
--   Gamification
--   Responsive UI design
--   Theme/settings management
--   Dynamic certificate generation
--   Print/PDF-friendly certificate output
+For development, open the project in **VS Code** and use the **Live Server** extension.
 
-------------------------------------------------------------------------
+---
 
-## 🧪 Testing Checklist
+# 💻 Requirements
 
-Before publishing or demonstrating the project, verify:
+No backend server or database installation is required.
 
--   [ ] New profile can be created
--   [ ] Existing profile can be selected
--   [ ] Profile deletion works
--   [ ] Course lessons open correctly
--   [ ] Drill accepts keyboard input
--   [ ] Correct/error counts update
--   [ ] WPM and accuracy update
--   [ ] Typing tests start and finish correctly
--   [ ] All games open correctly
--   [ ] Game scores/timers behave correctly
--   [ ] Statistics update after practice
--   [ ] Settings are saved
--   [ ] Dark/light mode works
--   [ ] Progress reset works as expected
--   [ ] All 12 lessons can be completed
--   [ ] Certificate unlocks after completing all 12 lessons
--   [ ] Certificate shows the correct learner name
--   [ ] Certificate shows completion details
--   [ ] Print / Save as PDF works
+### You only need:
 
-------------------------------------------------------------------------
+* 🌐 Modern web browser
+* 💻 VS Code
+* 🚀 Live Server extension *(optional)*
 
-## 🔮 Future Enhancements
+---
 
-Possible future improvements:
+# 🎯 Learning Experience
 
--   Cloud account synchronization
--   Online leaderboards
--   User authentication
--   Backend database
--   More typing courses
--   More advanced typing games
--   Multiplayer typing races
--   Exportable performance reports
--   Teacher/admin dashboard
--   More certificate templates
--   Keyboard-layout selection
--   Detailed per-key accuracy analytics
+Keystride follows a progressive approach to typing improvement:
 
-------------------------------------------------------------------------
+```text
+Learn
+  ↓
+Practice
+  ↓
+Improve Accuracy
+  ↓
+Increase Speed
+  ↓
+Take Tests
+  ↓
+Play Challenges
+  ↓
+Track Progress
+  ↓
+Achieve Milestones
+```
 
-## 👨‍💻 Author
+---
 
-**Ankit Kumar**
+# 📊 Performance Tracking
 
-Built as a typing-practice and skill-development web application.
+The application focuses on two important typing metrics:
 
-------------------------------------------------------------------------
+### ⚡ Words Per Minute — WPM
 
-## 📄 License
+Measures how quickly the user can type during a typing session.
 
-Add your preferred license here before publishing the repository
-publicly. For example, you can use the MIT License if it matches your
-intended usage and distribution terms.
+### 🎯 Accuracy
 
-------------------------------------------------------------------------
+Measures the percentage of correctly typed characters or words during practice.
 
-## ⭐ Support
+Together, these metrics help users understand their typing performance and monitor improvement over time.
 
-If you find Keystride useful, consider giving the repository a ⭐ on
-GitHub and sharing feedback or feature ideas.
+---
 
-------------------------------------------------------------------------
+# 🎮 Gamified Learning
 
-## 📌 Project Summary
+Keystride introduces game-based typing practice to make learning more engaging.
 
-**Keystride** is more than a basic typing test. It combines:
+### 🚀 Space Shooter
 
-**Structured Lessons + Guided Drills + Timed Tests + Typing Games +
-Statistics + Gamification + Certificate of Completion**
+The Space Shooter mode combines:
 
-to create a complete browser-based typing practice experience.
+* Keyboard typing
+* Fast response
+* Timing
+* Accuracy
+* Game interaction
+
+This allows users to practice typing while participating in an interactive challenge.
+
+---
+
+# 🔐 Privacy
+
+Keystride is designed as a client-side web application.
+
+Where applicable, user-related information and progress are handled through browser-based storage rather than requiring a dedicated backend server.
+
+No account creation or server configuration is required to start using the application.
+
+---
+
+# 🧪 Testing Checklist
+
+| Feature              | Status |
+| -------------------- | :----: |
+| User Profile         |    ✅   |
+| Course Navigation    |    ✅   |
+| Guided Typing Drill  |    ✅   |
+| Typing Test          |    ✅   |
+| WPM Calculation      |    ✅   |
+| Accuracy Tracking    |    ✅   |
+| Typing Games         |    ✅   |
+| Space Shooter        |    ✅   |
+| Statistics           |    ✅   |
+| Settings             |    ✅   |
+| Certificate          |    ✅   |
+| Responsive Interface |    ✅   |
+
+---
+
+# 📈 Future Improvements
+
+The project can be extended with:
+
+* [ ] ☁️ Cloud-based progress synchronization
+* [ ] 👥 Online user accounts
+* [ ] 🏆 Global typing leaderboard
+* [ ] 🌐 Multiplayer typing competitions
+* [ ] 🎮 Additional typing games
+* [ ] 📊 Advanced performance analytics
+* [ ] 📅 Daily typing challenges
+* [ ] ✍️ Custom typing passages
+* [ ] 🌙 Advanced Dark/Light themes
+* [ ] 📱 Improved mobile experience
+* [ ] 🔐 Backend authentication
+* [ ] 🗄️ Database integration
+* [ ] 📄 Exportable performance reports
+
+---
+
+# 🌟 Why Keystride?
+
+Typing is an essential digital skill for:
+
+* 👨‍💻 Developers
+* 🎓 Students
+* 🧑‍💼 Office Professionals
+* ✍️ Writers
+* 📊 Data Entry Professionals
+* 💻 Computer Users
+
+Keystride transforms traditional typing practice into a **structured, interactive, and measurable learning experience**.
+
+---
+
+# 👨‍💻 About The Developer
+
+## Saurav Kumar
+
+**BCA Student | Aspiring Software Developer | Java & Web Development Enthusiast**
+
+I enjoy building practical software projects and continuously developing my skills in:
+
+`Java` • `Python` • `Web Development` • `AI` • `Software Development`
+
+### 🌐 Connect With Me
+
+<p>
+  <a href="https://github.com/saurav-kumar-tech">
+    <img src="https://img.shields.io/badge/GitHub-saurav--kumar--tech-181717?style=for-the-badge&logo=github">
+  </a>
+  <a href="https://www.linkedin.com/in/saurav-kumar-it/">
+    <img src="https://img.shields.io/badge/LinkedIn-Saurav%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</p>
+
+---
+
+# ⭐ Support The Project
+
+If you found **Keystride — Typing Master** useful or interesting:
+
+⭐ **Star the repository**
+
+🍴 **Fork the project**
+
+💡 **Share your feedback**
+
+---
+
+# 📌 Project Information
+
+| Category             | Details                   |
+| -------------------- | ------------------------- |
+| **Project Name**     | Keystride — Typing Master |
+| **Project Type**     | Frontend Web Application  |
+| **Status**           | ✅ Completed               |
+| **Primary Language** | JavaScript                |
+| **Markup**           | HTML5                     |
+| **Styling**          | CSS3                      |
+| **Storage**          | Browser LocalStorage      |
+| **Developer**        | Saurav Kumar              |
+
+---
+
+<p align="center">
+
+### ⌨️ Keystride — Typing Master
+
+<strong>Build Speed • Improve Accuracy • Master the Keyboard</strong>
+
+<br><br>
+
+Made with ❤️ by <strong>Saurav Kumar</strong>
+
+</p>
